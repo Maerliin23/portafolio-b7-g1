@@ -1,8 +1,21 @@
+body{
+    background-color: #bbdead;
+}
+button{
+    background-color: #9c59;
+}
+
 #presentacion {
     height: 90vh;
     display: flex;
     justify-content: start;
     align-items: center;
+    
+    
+    background-image: url("assets/fondo2.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .text-shadow-1 {
@@ -16,6 +29,7 @@
 }
 
 #proyecto-1{
+    background-color: #eedead;
     background-image: url('assets/google.png');
 
 }
