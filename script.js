@@ -11,7 +11,7 @@ typewriter
   .typeString('Marlen González')
   .pauseFor(300)
   .deleteAll()
-  .typeString('Desarrolladora Frontend JR')
+  .typeString('Dev Frontend JR')
   .pauseFor(1000)
   .start();
 

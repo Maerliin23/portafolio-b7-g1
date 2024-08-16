@@ -19,7 +19,7 @@
 
     <!--- Cabecera de mi página -->
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg bg-black " data-bs-theme="dark">
+        <nav class="navbar fixed-top navbar-expand-lg  " data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">Marlen</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,6 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
+                            
                             <a class="nav-link active text-white" aria-current="page" href="#presentacion">Yo</a>
                         </li>
                         <li class="nav-item">
@@ -51,24 +52,26 @@
 
     <main class="mb-5">
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
+        <section id="presentacion" class="container-fluid">
             <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
                 <div class="row flex-lg-row align-items-center g-5 py-5">
-                    <div class="col-10 col-sm-8 col-lg-6">
-                        <img src="assets/fotop.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-                            width="350" height="350" loading="lazy">
-                    </div>
                     <div class="col-lg-6 text-light p-3">
                         <h1 id="app" class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Marlen González Z
                         </h1>
-                        <p class="lead">Soy una desarrolladora con un gusto particular por los gatos, 
-                            el clima frío, las leches Santa Clara, y la programación backend,
-                             aunque posee más habilidades en frontend. Este interés se complementa 
-                             con su desarrollo en Ingeniería en Sistemas Computacionales y su aspiración
-                              de combinarla con la psicología.</p>
+                        <div class="container">
+                            <p class="fw-bold text-justify">
+                                ¡Hola! Soy una desarrolladora junior con un enfoque en el desarrollo web. Actualmente, estoy en formación como
+                                ingeniera en sistemas computacionales, donde adquiero habilidades en programación, diseño de software y gestión de
+                                sistemas informáticos. Mi experiencia incluye el trabajo en proyectos web que abarcan desde la creación de
+                                interfaces atractivas hasta la implementación de funcionalidades complejas. Me apasiona la tecnología y estoy
+                                comprometida con el aprendizaje continuo para contribuir de manera efectiva en el mundo del desarrollo web.
+                            </p>
+                        </div>
                         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button type="button" class="btn btn-lg px-4 me-md-2">Contactáme</button>
-                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">glezmae6@gmail.com</button>
+                            <form action="mailto:glezmae6@gmail.com" method="post" enctype="text/plain">
+                                <button type="submit" class="btn btn-lg px-4 me-md-2">glezmae6@gmail.com</button>
+                            </form>
+                            
                         </div>
                     </div>
                 </div>
@@ -89,7 +92,23 @@
                         <i class="bi bi-suit-heart"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis my-3">Desarrrollo WEB</h3>
-                    <p>Conocimientos en HTML, CSS, JAVASCRIPT</p>
+                    <p>
+                    <ul>
+                        <li class="mt-2">
+                            <img src="assets\javascript.png" alt="js">JAVASCRIPT
+                        </li>
+                        <li class="mt-2">
+                            <img src="assets\html.png" alt="html">HTML
+                        </li>
+                        <li class="mt-2">
+                            <img src="assets\css.png" alt="css">CSS
+                        </li>
+                        <li class="mt-2">
+                            <img src="assets\figma.png" alt="figma">FIGMA
+                        </li>
+                    </ul>
+                    
+                    </p>
                 </div>
                 <div class="feature col">
                     <div
@@ -97,15 +116,39 @@
                         <i class="bi bi-people"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis my-3">Trabajo en Equipo</h3>
-                    <p>Conocimientos en HTML, CSS, JAVASCRIPT</p>
+                    <p class="text-justify">
+                        Puedo colaborar con otros para lograr objetivos comunes. Valoro la comunicación abierta y el respeto por las ideas de cada
+                        miembro. Contribuyo con mis habilidades y perspectivas, y aprecio la diversidad de enfoques para resolver problemas
+                        y superar desafíos juntos. Me esfuerzo por coordinarme eficazmente y apoyar a mis compañeros para alcanzar metas
+                        comunes y fomentar un ambiente positivo.
+                    </p>
                 </div>
-                <div class="feature col">
+                <div class="feature col p-2">
                     <div
                         class=" d-inline-flex align-items-center justify-content-center bg-warning-subtle bg-gradient fs-2 py-2 px-3 rounded">
                         <i class="bi bi-brightness-high"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis my-3">Responsabilidad</h3>
-                    <p>Conocimientos en HTML, CSS, JAVASCRIPT</p>
+                    <p class="text-justify">
+                        Para mí, significa cumplir con mis compromisos y asumir las consecuencias de mis acciones. Me
+                        esfuerzo por ser confiable y tomar la iniciativa en mis tareas, asegurándome de que el trabajo se haga de manera
+                        efectiva y puntual. Soy consciente de mi impacto en el equipo y en los proyectos, y siempre busco aprender y mejorar
+                        a partir de mis experiencias.
+                    </p>
+                </div>
+
+                <div class="feature col p-2">
+                    <div
+                        class=" d-inline-flex align-items-center justify-content-center bg-warning-subtle bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-brightness-high"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-3">Liderazgo</h3>
+                    <p class="text-justify">
+                        Quiero seguir desarrollando esta habilidad la cual es una forma de guiar e inspirar a otros hacia el logro de metas comunes. Me esfuerzo por ser un
+                        ejemplo positivo, promoviendo un ambiente de colaboración y confianza. Escucho y valoro las ideas del equipo, y me
+                        enfoco en motivar y apoyar a cada miembro para que podamos alcanzar el éxito juntos. Creo en liderar con empatía,
+                        tomando decisiones informadas y fomentando el crecimiento y desarrollo de todos.
+                    </p>
                 </div>
 
             </div>
@@ -113,26 +156,37 @@
 
         <section id="proyectos" class="container px-4 py-5">
             <h2 class="pb-2 border-bottom">Mis proyectos</h2>
-
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 align-items-stretch g-4 py-5"></div>
-            <div class="col">
-                <div id="proyecto-1"
-                    class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                    
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google.</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="d-flex align-items-center me-3">
-                                <i class="bi bi-code-square"></i>
-                                <a href="https://googleclongzm.netlify.app" target="_blank" class="ps-3"> Clon de Google</a>
-                            </li>
-                        </ul>
+            <div class="container py-5">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="bi bi-code-square"></i>
+                                        <a href="https://googleclongzm.netlify.app" target="_blank" class="ps-3">Clon de Google</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    
+                    <div class="col">
+                        <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mi Primer Página</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="d-flex align-items-center me-3">
+                                        <i class="bi bi-code-square"></i>
+                                        <a href="https://herbolaria-mexicana-by-mgz.netlify.app/" target="_blank" class="ps-3">Herbolaria Mexicana</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            </div>
+            
         </section>
 
 
@@ -143,25 +197,25 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <article class="container text-center">
-                            <img src="assets/ada.webp" height="200" alt="Ada Lovelace">
-                            <h3>Ada Lovelace</h3>
-                            <p>"Marlen es una estudiante excepcional."</p>
+                            <img src="assets\polonochtle.jpg" height="200" alt="Ada Lovelace">
+                            <h3>Polo G</h3>
+                            <p>"Marlen es una persona hábil en análisis crítico, adaptabilidad y gestión de proyectos."</p>
                         </article>
                     </div>
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img src="assets/ada.webp" height="200" alt="Ada Lovelace">
-                            <h3>Marisol</h3>
-                            <p>"Marlen es una estudiante excepcional."</p>
+                            <img src="assets\Rojitos.jpg" height="200" alt="Ada Lovelace">
+                            <h3>Christian R</h3>
+                            <p>"Destaca en colaboración, organización y capacidad para aprender rápidamente."</p>
                         </article>
                     </div>
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img src="assets/ada.webp" height="200" alt="Ada Lovelace">
-                            <h3>Liliana</h3>
-                            <p>"Marlen es una estudiante excepcional."</p>
+                            <img src="assets\noemis.jpg" height="200" alt="Ada Lovelace">
+                            <h3>Noemi Moctezuma</h3>
+                            <p>"Marlen sobresale en planificación estratégica, motivación y resolución de conflictos."</p>
                         </article>
                     </div>
                 </div>
@@ -205,7 +259,7 @@
                 </a>
             </li>
         </ul>
-        <p class="text-center text-white">© 2024 Malinali, TECHNOLOCHICAS PRO</p>
+        <p class="text-center text-white">© 2024 Marlen, TECHNOLOCHICAS PRO</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

@@ -1,19 +1,19 @@
 body{
-    background-color: #bbdead;
+    background-color: #aa98dd;
 }
 
 #presentacion {
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: start;
     align-items: center;
     
     
-    background-image: url("assets/fondo2.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url("assets/fondo2.gif");
+    background-size: cover;
+
 }
+
 
 .text-shadow-1 {
     text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);
@@ -26,8 +26,14 @@ body{
 }
 
 #proyecto-1{
-    background-color: #eedead;
+    background-color: #aa98dd;
     background-image: url('assets/google.png');
+
+}
+
+#proyecto-2{
+    background-color: #aa98dd;
+    background-image: url('assets/herbolaria.png');
 
 }
 
@@ -41,3 +47,18 @@ body{
 .texto-gigante{
     font-size: 80px;
 }
+
+.text-justify {
+    text-align: justify;
+}
+
+.navbar{
+    background-color:#231b52;
+}
+/* Paleta de Colores
+.color1 { #aa98dd };
+.color2 { #8979ba };
+.color3 { #675a97 };
+.color4 { #453a75 };
+.color5 { #231b52 }; */
+
