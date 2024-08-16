@@ -11,11 +11,11 @@ https://deluxe-twilight-f4179f.netlify.app
 
 ## Secciones de mi sitio
 
-![Presentación](assets/readme/1.png)
-![Habilidades](assets/readme/2.png)
-![Proyectos](assets/readme/3.png)
-![Testimonios](assets/readme/4.png)
-![Contacto](assets/readme/5.png)
+![Presentación](assets\presentacion.png)
+![Habilidades](assets\habilidades.png)
+![Proyectos](assets\proyectos.png)
+![Testimonios](assets\testimonios.png)
+![Contacto](assets\contacto.png)
 
 ## Tecnologías
 * HTML
