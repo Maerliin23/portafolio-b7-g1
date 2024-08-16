@@ -7,8 +7,7 @@ Fue desarrollado con HTML, CSS, y JS con el uso de el framework de UI, Bootstrap
 La página es responsiva(adaptable a diferentes tamaños de pantalla) e inlcuye la presentación de la autora del proyecto.
 
 Proyecto desplegado.
-https://deluxe-twilight-f4179f.netlify.app
-
+hhttps://mi-portafolio-marlengz.netlify.app
 ## Secciones de mi sitio
 
 ![Presentación](assets/presentacion.png)
@@ -24,4 +23,4 @@ https://deluxe-twilight-f4179f.netlify.app
 * JavaScript
 ---
 
-Desarrollado con  💜 por [Marlen](https://deluxe-twilight-f4179f.netlify.app ) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
+Desarrollado con  💜 por [Marlen](https://mi-portafolio-marlengz.netlify.app ) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
