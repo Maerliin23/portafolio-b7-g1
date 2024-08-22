@@ -7,7 +7,7 @@ Fue desarrollado con HTML, CSS, y JS con el uso de el framework de UI, Bootstrap
 La página es responsiva(adaptable a diferentes tamaños de pantalla) e inlcuye la presentación de la autora del proyecto.
 
 Proyecto desplegado.
-hhttps://mi-portafolio-marlengz.netlify.app
+https://mi-portafolio-marlengz.netlify.app
 ## Secciones de mi sitio
 
 ![Presentación](assets/presentacion.png)
